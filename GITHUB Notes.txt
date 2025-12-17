@@ -1,0 +1,41 @@
+GITHUB Notes
+Lots of sites as GitHub. Version Control System. Track code changes. 
+
+Why GitHub? 
+1. Not paid
+2. Many open-source codes
+
+Advantages
+1. Efficient and fast
+2. Collaboration support
+3. Widely used
+
+Terminologies:
+1. local: Laptop
+2. Remote: Server(GitLab/GitHub)
+3. Remote url: where saved(url)
+4. ssh-keygen: generate public/private key(connect local and remote)only your laptop can access the git
+5. repo-repository
+6. 
+
+(Cryptography): (private/public key)
+public key: encrypt
+private key: decrypt
+
+git add .(adds all files in the folder)
+
+git init . (initialize git)
+make .gitignore file(add if any added file or folder to ignore)
+git add . (to track files in local git)
+git commit -m "initial commit"
+add remote url if not in local fit to check
+git remove -v
+if empty add url(url is found in remote repo in ssh section) 
+git remote add origin <remote:url>
+
+check branch name
+git branch
+push code in GitHub
+
+git push origin main 
+
