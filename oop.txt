@@ -1,0 +1,11 @@
+Class bhitra ko function --> Method(work of class)
+Variable inside class --> attributes
+Reusable functions/methods
+Class object bata control hunxa
+Class ma object banayera modify
+
+Class --> ghar
+Object --> blueprint
+
+constructor --> object baunaune bittikai call hune (afai call hune with no return)
+only one constructor
