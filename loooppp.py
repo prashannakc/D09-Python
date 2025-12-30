@@ -1,3 +1,4 @@
+'''
 data={
     'name':'ram',
     'class': 13,
@@ -48,7 +49,7 @@ while(i<=10):
 a = [1,2,3,4,5]
 l = len(a)
 while(l!=0):
-    print(a[l])
+    print(a[l-1])
     l -= 1
 
 i = 1
@@ -58,6 +59,48 @@ while(i<=200):
         if i == 256:
             break
     i += 1
+
+import random
+random_num = random.randint(1,15)
+print(random_num)
+guess_count=[]
+i=0
+while True:
+    user_input = int(input("Guess the number "))
+    i += 1
+    if random_num == user_input:
+        print("Right")
+        play_more = input("Do you want to play more? Y/N ").upper()
+        if play_more == "Y":
+            guess_count.append(i)
+            random_num = random.randint(1,15)
+            print("again ....",random_num)
+            i=0
+        else:
+            guess_count.append(i)
+
+            break
+
+print(f"attempt: {i}")
+print(f"history attempt: {guess_count}")
+'''
+
+
+Cor_Ps = 'secure123'
+attempt = 0
+while True:
+    attempt += 1
+    att_left = 4 - attempt
+    Ps_Attempt = input("Enter Password: ")
+    if Cor_Ps == Ps_Attempt:
+        print("Password Successful")
+        break
+    else:
+        print("Wrong Password!!")
+        print(f"attempts left: {att_left}")
+        if(att_left == 0):
+            print("no attempts left")
+            break
 
 
 
