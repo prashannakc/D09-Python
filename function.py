@@ -19,8 +19,28 @@ def analyze_result(student_name, maths_marks, science_marks, english_marks, atte
         gradee = grade[i+1]
     result = {"student name": student_name, "average marks": avg_marks, "final grade": gradee}
     return result
-
 print(analyze_result("Prashanna", 70, 80, 90, 69))
+
+#g=9.8 is default - changeable
+def force(m, g=9.8):
+    f = m*g
+    return f
+
+#earth 
+force(10)
+force(20)
+force(30)
+
+#moon
+force(10, 15)
+
+def userinfo(fname, lname = "sharma"):
+    return f"My name is {fname} {lname}"
+
+print(userinfo("sudan"))
+print(userinfo("Hari", "KC"))
+
+
 
 
     

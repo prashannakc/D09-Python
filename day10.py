@@ -1,4 +1,4 @@
-#single inheritance
+#SINGLE INHERITANCE
 class Parent():
     a = 10
     b = 11

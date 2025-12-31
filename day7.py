@@ -1,4 +1,3 @@
-'''
 #a = tuple(stores all arguemnts) (args = arguments)
 def test(*args):
     print(args)
@@ -16,8 +15,6 @@ def add(*num):
     return sum
 result = add(4, 5, 6)
 print(result)
-'''
-
 
 #CA - Average of Numeric Args
 def average(*args):
@@ -30,7 +27,3 @@ def average(*args):
     return total/num
 print(average("Prashanna", "KC", 1, 2, 3, 4.05))
 
-
-    
-
-    

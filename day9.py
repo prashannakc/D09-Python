@@ -1,13 +1,11 @@
-'''
 class Test():
-    a = 10              a and b = attributes of Test
+    a = 10              #a and b = attributes of Test
     b = 11
 
 
     def testing(*args, **kwargs):
         return 1
-'''
-'''
+
 class Math():
     a=11
     b=10
@@ -32,7 +30,6 @@ obj2 = Math()
 print(obj.add()) 
 print(obj1.c - obj1.sub())
 print(obj.sub())
-'''
 
 
 

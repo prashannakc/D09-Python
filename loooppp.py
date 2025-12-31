@@ -84,8 +84,6 @@ while True:
 print(f"attempt: {i}")
 print(f"history attempt: {guess_count}")
 '''
-
-
 Cor_Ps = 'secure123'
 attempt = 0
 while True:
@@ -101,7 +99,6 @@ while True:
         if(att_left == 0):
             print("no attempts left")
             break
-
 
 
 
