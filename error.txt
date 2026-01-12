@@ -1,0 +1,6 @@
+name 'a' is not defined
+name 'a' is not defined
+name 'a' is not defined
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
